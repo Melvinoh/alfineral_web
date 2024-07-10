@@ -1,0 +1,127 @@
+.shop-wrapper{
+    display: flex;
+    padding: 0.5rem;
+    width: 97%;
+    margin: auto;
+    gap: 2rem;
+}
+.shop-wrapper .navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0.5rem;
+    max-width: fit-content;
+    flex: 1;
+}
+.shop-wrapper .navbar .shop-filters,.shop-wrapper .navbar .price-filters{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 0.5rem;
+    border: var(--border);
+    border-radius: 10px;
+}
+.shop-wrapper .navbar .shop-filters .shop{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(248, 250, 252);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shop-filters .shop img{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.price-filters .form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.price-filters .form .f-element{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.f-element input{
+    border: var(--border);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.tag-filter{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    border: var(--border);
+    border-radius: 10px;
+}
+.tag-filter div{
+    background-color: #e3e2e2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.shop-wrapper .main-con{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+    flex: 4;
+}
+.main-con .m-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 0.5rem;   
+}
+.m-bar .icon i{
+    font-size: 24px;
+    color: #e9e6e6;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.m-bar .icon .od{
+    color: #3876F5;
+}
+.m-bar .sort{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.main-con .grid-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0.5rem;
+}
+.main-con .grid-wrapper .m-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px , 1fr));
+    place-items: center;
+    gap: 1.5rem;
+}
+.pagination{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    padding: 0.5rem;
+    align-items: center;
+}
+.pagination .od{
+    padding: 1.5rem;
+    background: linear-gradient( -45deg , #38EAFF, #3876F5);
+    border-radius:5px;
+    cursor: pointer;
+}
+.pagination p{
+    padding: 1.5rem;
+    border: var(--border);
+    border-radius:5px;
+    color:#3876F5 ;
+    cursor: pointer;
+}

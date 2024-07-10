@@ -1,0 +1,119 @@
+.blog_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0.5rem;
+    width: 90%;
+    margin: auto;
+}
+.blog-container{
+    display: flex;
+    gap: 3.5rem;
+}
+.blog-container .left-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 5;
+}
+.blog-container .left-bar .post, .left-bar .comments{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.left-bar .post .img{
+    width: 100%;
+}
+.left-bar .post .img img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+hr{
+    color: grey;
+}
+.left-bar .comments .comments-con,.pl{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+}
+.left-bar .comments .comments-con img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    aspect-ratio: 1/1.5;
+    border-radius: 5px;
+}
+.comments-con .det{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.blog-container .right-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    flex: 2;
+}
+.right-bar .post-list , .right-bar .categories, .right-bar .tags{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: var(--border);
+    border-radius: 5px;
+    padding: 1rem;
+}
+.pl-con{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.pl{
+    padding: 1rem;
+    border-radius: 5px;
+}
+.pl img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.pl.active{
+    background-color: #e5e5e5;
+}
+.cat-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  cursor: pointer;
+}
+.comments-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+
+}
+.comments-form input ,textarea{
+    border: var(--border);
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: #e2e2e28e;
+    width: 49.4%;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+}
+.comments-form .form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}

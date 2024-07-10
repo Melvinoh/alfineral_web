@@ -1,0 +1,46 @@
+.card-wrapper{
+    padding: 0.5rem;
+    border: var(--border);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 100%;
+    justify-content:  center;
+    align-items: center;
+    text-align: center;
+}
+.card-wrapper .top{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.card-wrapper .top i{
+    color: blueviolet;
+}
+.card-wrapper .top img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+.card-wrapper .img{
+    width: 150px;
+    height: 150px;
+}
+.card-wrapper .img img{
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+.card-wrapper .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.stars{
+    color: orange;
+}

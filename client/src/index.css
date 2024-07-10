@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+--heading1-color:linear-gradient( -45deg , rgb(41, 72, 133), rgb(3, 3, 249));;
+--sub-heading: #FB9824;
+--border:1px solid #bab9b9;
+--button-color1:radial-gradient(circle, #38EAFF, #3876F5);
+--heading1-fam:"Maven Pro", sans-serif;
+--hero-fam: "Lemon", serif;
+
+}
+*{
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0;padding: 0;
+  outline: none;
+  border: none;
+
+
+}
+Link {
+  color: black;
+}
+body{
+  padding: 1rem;
+  margin-bottom:1.2rem ;
+}
+
+html{
+  font-size: 13px;
+  scroll-behavior: smooth;
+  scroll-padding: 0.8rem;
+}
+::-webkit-scrollbar{
+  width:1rem;
+}
+::-webkit-scrollbar-track{
+ background-color: transparent;
+}
