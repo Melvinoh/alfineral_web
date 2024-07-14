@@ -2,6 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "./home.css"
 import 'swiper/css';
+import P_card from '../../components/cards/P_card'
 
 const Home = () => {
   return (
@@ -83,9 +84,9 @@ const Home = () => {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
             >
-                <SwiperSlide className='swipe'>Slide 1</SwiperSlide>
-                <SwiperSlide className='swipe'>Slide 2</SwiperSlide>
-                <SwiperSlide className='swipe'>Slide 3</SwiperSlide>
+                <SwiperSlide className='swipe'><P_card/></SwiperSlide>
+                <SwiperSlide className='swipe'><P_card/></SwiperSlide>
+                <SwiperSlide className='swipe'><P_card/></SwiperSlide>
                 <SwiperSlide className='swipe'>Slide 4</SwiperSlide>
                 <SwiperSlide className='swipe'>Slide 4</SwiperSlide>
                 <SwiperSlide className='swipe'>Slide 4</SwiperSlide>

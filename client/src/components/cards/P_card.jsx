@@ -1,9 +1,10 @@
 import React from 'react'
 import "./cards.css"
+import { Link } from 'react-router-dom'
 
 const P_card = () => {
   return (
-    <div className="card-wrapper">
+    <Link to={`/shops/1`} className="card-wrapper">
       <div className="top">
         <img src="/alf/person78.GIF" alt="" />
         <span>alfinerals</span>
@@ -23,7 +24,7 @@ const P_card = () => {
         </div>
         <button className="btn-2">view product</button>
       </div>
-    </div>
+    </Link>
   )
 }
 

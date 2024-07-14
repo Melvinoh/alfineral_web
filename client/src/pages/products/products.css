@@ -1,0 +1,92 @@
+.products_wrapper{
+  width: 80%;
+  margin: auto;
+}
+.container-1{
+    display: flex;
+    padding: 0.5rem;
+    gap: 1.5rem;
+    max-height: fit-content;
+}
+.prod-view{
+    padding: 1.2rem;
+    border: var(--border);
+    border-radius: 10px;
+    flex: 1.2;
+    max-width: 60%;
+}
+.container-1 .right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+}
+.container-1 .right .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    gap:   1.5rem;
+}
+.container-1 .right .content .det{
+    display: flex;
+    gap: 1.9rem;
+    align-items: flex-start;
+    padding: 0.2rem;
+    justify-content: space-between;
+    text-align: justify;
+}     
+.size{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.boxes{
+    display: flex;
+    gap: 1rem;
+}
+.boxes span{
+    border: var(--border);
+    padding: 0.7rem;
+}
+
+  .mySwiper3 {
+    height:fit-content;
+    width: 90%;
+  }
+  .mySwiper3 .swiper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mySwiper4 .swiper-slide{
+    padding: 0.7rem;
+    border: var(--border);
+  }
+  
+  .mySwiper4 {
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .mySwiper3 .swiper-button-prev, .swiper-button-next{
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .mySwiper3 .swiper-slide {
+    height: 100%;
+    opacity: 1;
+  }
+  
+  .mySwiper3 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  
+  .mySwiper3 .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  hr{
+    border: var(--border);
+    margin: 1rem;
+  }

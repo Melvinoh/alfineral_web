@@ -118,10 +118,7 @@
     padding: 0.2rem;
 }
 .slider-con .swipe{
-    width: 250px;
-    height: 300px;
-    border: var(--border);
-    border-radius: 20px;
+    height: fit-content;
     text-align: center;
     padding: auto;
 }

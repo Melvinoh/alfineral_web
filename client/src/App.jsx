@@ -22,7 +22,7 @@ import Settings from './admin/settings/Settings'
 
 
 function App() {
-  const [admin, setAdmin] = useState(false)
+  const [admin, setAdmin] = useState(null)
 
   const Layout = ()=>{
     return(
@@ -94,7 +94,15 @@ function App() {
           element:<Shops/>
         },
         {
+          path:"/shops/:id",
+          element:<Products/>
+        },
+        {
           path:"/products",
+          element:<Products/>
+        },
+        {
+          path:"/products/:id",
           element:<Products/>
         }
       ]

@@ -7,6 +7,7 @@
     align-items: center;
     padding: 0.7rem;
     background-color:white;
+    z-index: 20;
 }
 .header .logo{
     padding: 0.5rem;
